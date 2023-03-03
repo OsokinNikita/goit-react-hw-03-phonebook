@@ -9,4 +9,5 @@ export const Container = styled.ul`
   padding: ${p => p.theme.space[3]}px;
   margin-bottom: ${p => p.theme.space[5]}px;
   font-size: ${p => p.theme.fontSizes.m};
+  color: white;
 `;

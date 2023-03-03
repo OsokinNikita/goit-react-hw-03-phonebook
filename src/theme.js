@@ -1,12 +1,12 @@
 export const theme = {
   colors: {
-    black: '#010101',
+    black: '#fff',
     white: '#fff',
     green: '#4caf50',
     red: '#f44336',
     blue: '#2196f3',
-    secondaryText: '#757575',
-    primaryText: '#212121',
+    secondaryText: '#fff',
+    primaryText: '#fff',
   },
   space: [0, 2, 4, 8, 16, 32, 64, 128, 256],
   fonts: {

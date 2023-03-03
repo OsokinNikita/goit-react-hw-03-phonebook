@@ -1,10 +1,15 @@
 import PropTypes from 'prop-types';
-import { Label } from './Filter.styled';
+import { Label, FilterInput } from './Filter.styled';
 
 export const Filter = ({ value, onChange }) => (
   <Label>
     Find contacts by name
-    <input type="text" value={value} onChange={onChange} />
+    <FilterInput
+      style={{ fontFamily: 'Death Note Font' }}
+      type="text"
+      value={value}
+      onChange={onChange}
+    />
   </Label>
 );
 

@@ -7,4 +7,9 @@ export const Label = styled.label`
   margin-bottom: ${p => p.theme.space[3]}px;
   font-size: ${p => p.theme.fontSizes.m};
   font-weight: ${p => p.theme.fontWeights.bold};
+  color: white;
+`;
+
+export const FilterInput = styled.input`
+  border-radius: 10px;
 `;

@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import PropTypes from 'prop-types';
-import { Container, SubmitButton } from './ContactForm.styled';
+import { Container, SubmitButton, SubmitInput } from './ContactForm.styled';
 
 export class ContactForm extends Component {
   state = {
@@ -35,7 +35,10 @@ export class ContactForm extends Component {
       <Container onSubmit={this.handleSubmit}>
         <label>
           Name
-          <input
+          <SubmitInput
+            style={{
+              fontFamily: 'Death Note Font',
+            }}
             type="text"
             name="name"
             pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
@@ -47,7 +50,8 @@ export class ContactForm extends Component {
         </label>
         <label>
           Number
-          <input
+          <SubmitInput
+            style={{ fontFamily: 'Death Note Font' }}
             type="tel"
             name="number"
             pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
